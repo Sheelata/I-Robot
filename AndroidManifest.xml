@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.i_robo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.i_robo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.i_robo.Project_type"
+            android:label="@string/title_activity_project_type" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.SimpleProject"
+            android:label="@string/title_activity_simple_project" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.MicroController"
+            android:label="@string/title_activity_micro_controller" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.ComplexProject"
+            android:label="@string/title_activity_complex_project" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.Exit"
+            android:label="@string/title_activity_exit" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.Lfr"
+            android:label="@string/title_activity_lfr" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.LightDarkSensor"
+            android:label="@string/title_activity_light_dark_sensor" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.TouchingAlarm"
+            android:label="@string/title_activity_touching_alarm" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.FireAlarm"
+            android:label="@string/title_activity_fire_alarm" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.WaterLevelIndicator"
+            android:label="@string/title_activity_water_level_indicator" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.VoltageStabilizer"
+            android:label="@string/title_activity_voltage_stabilizer" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.ScrollingDislpay"
+            android:label="@string/title_activity_scrolling_dislpay" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.SevenSigmentDisplay"
+            android:label="@string/title_activity_seven_sigment_display" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.IRobjectDetector"
+            android:label="@string/title_activity_irobject_detector" >
+        </activity>
+        <activity
+            android:name="com.example.i_robo.QuadCopter"
+            android:label="@string/title_activity_quad_copter" >
+        </activity>
+    </application>
+
+</manifest>
