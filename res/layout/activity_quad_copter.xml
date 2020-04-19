@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    tools:context=".QuadCopter" >
+
+   <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+             <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/quadcopter" />
+            
+            <TextView
+                android:id="@+id/Apparatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text1_quad_copter" />
+ 
+            
+           
+            
+             <TextView
+                android:id="@+id/procedure1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text2" />
+            
+ 
+            
+              
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.57"
+                android:orientation="horizontal" >
+                      <Button
+                android:id="@+id/BtnBack"
+                android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               
+                android:background="#002761"
+                 android:text="Back" />
+         <Button
+                android:id="@+id/ExitBtn"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" 
+                 android:layout_weight="1"
+                android:background="#002761"
+                  android:text="Exit" />
+            </LinearLayout>
+            
+        </LinearLayout>
+
+    </ScrollView>
+    
+</RelativeLayout>

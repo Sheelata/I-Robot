@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SevenSigmentDisplay" >
+
+<ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/procidure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/what_is_seven_sigment_display" />
+ 
+            
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/commoncathod" />
+            
+             <TextView
+                android:id="@+id/apparetus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/what_is_2_seven_sigment_display" />
+            
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/commonanode" />
+            
+             <TextView
+                android:id="@+id/apparetus2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/number_seven_sigment_display" />
+            
+               <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/digite" />
+            
+            
+               
+               
+               
+            
+            
+              <TextView
+                android:id="@+id/driving1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/driving1_seven_sigment_display" />
+            
+               <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/driving1" />
+               
+              <TextView
+                android:id="@+id/dribing2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/driving2_seven_sigment_display" />
+              
+               <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/drivind2" />
+               
+              <TextView
+                android:id="@+id/dribing3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/driving3_seven_sigment_display" />
+              
+              
+               
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.57"
+                android:orientation="horizontal" >
+                      <Button
+                android:id="@+id/BtnBack"
+                android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               
+                android:background="#002761"
+                 android:text="Back" />
+         <Button
+                android:id="@+id/ExitBtn"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" 
+                 android:layout_weight="1"
+                android:background="#002761"
+                  android:text="Exit" />
+            </LinearLayout>
+            
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

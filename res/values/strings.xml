@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">i-ROBO</string>
+    <string name="action_settings">Settings</string>
+    <string name="information">Electrical and Electronics Engineering (EEE), deals with the engineering problems, opportunities and needs of electrical, electronics, computer, telecommunication systems and related industries. This branch provides students with a wide range of fundamental knowledge in core disciplines such as communications, control systems, signal processing, radio frequency design, micro-processors, micro-electronics, power generation and electrical machines. The discipline focuses on design and manufacture of electrical, electronic devised, computers and their component parts, as well as on the integration of components into complex systems.</string>
+    <string name="title_activity_project_type">Project type</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_simple_project">Simple Project</string>
+    <string name="title_activity_micro_controller">MicroController</string>
+    <string name="title_activity_complex_project">Complex Project</string>
+    <string name="title_activity_exit">Exit</string>
+    <string name="title_activity_light_dark_sensor">Light and Dark Sensor</string>
+    <string name="procidureOFLightAndDarkSensor">"Precedure: \nRemember that the LDR doesn't have a negative or positive terminal !Connect the first terminal of the LDR to positive and second terminal through variable resistor to negative.Then start varying and when you get a vary for example(.58 v to 1.1v) or If the vary is of good range ,then also the circuit will work.After that take a wire in between from LDR and variable resistor and put in the third pin of the LM358 IC.In this circuit the left LDR is light sensor and the right LDR is Dark sensor.When you put hand on left LDR the 1st led stops glowing."</string>
+    <string name="ApparetusOFLightandDarkSensor">\n\nApparatus:\n\n1)LM358 IC\n2)LM7805 IC\n3)2 LEDs\n4)2 LDRs\n5)Breadboard\n6)3 9v batteries\n7) wires\n8)Two variable resistors of 10K\n\n</string>
+    <string name="title_activity_touching_alarm">Touching Alarm</string>
+    <string name="procidure_of_TouchingAlarm">Procedure:\nThe best way I know to build something is to understand every individual part. The burglar alarm is made of three parts:\n\t 1.The device that makes noise - a buzzer\n\t2.The battery\n\t3.The buzzer switch \n\nThe Buzzer\nWe cannot have an alarm without something that makes sounds. That is why we use a buzzer, which is something that makes a loud sound. To make the sound, the buzzer needs to be connected to the battery.\n\nThe Battery\nThe battery is very important to the alarm. For the buzzer to work, it needs energy. This energy comes from the battery. If the buzzer is not connected to the battery, it will not work. You have a switch to control this connection.\n\nThe Buzzer Switch\nSee how the buzzer works by connecting your 1.5-volt battery to the buzzer directly. (The buzzer should come with two different wires. If the wire is insulated, you will need to peel a small length so that you are able to see the metal wire inside.) Get two other pieces of wire and connect them to opposite ends of the battery. Connect one wire to (+) and the other to (-) (see diagram 1). In diagram 1, the battery should have the (+) and (-) labeled. Also, if you look closely, there is a (+) and (-) on the battery that you bought.\nYou may want to use electrical tape to hold the wires in place on the battery.\nCnnect the buzzer’s wires and the battery’s wires by twisting them, just like in the diagram 1. The buzzer should be making a sound; if it does not, check the connections at the ends of the wires to the battery.\n\Question: \n What happens when you disconnect a wire from the buzzer?\n Now, connect it again as often as you want and see how the buzzer turns on and off. By connecting and disconnecting the wires, what you have made is called a switch. \nWhen you disconnect a wire and the buzzer stops sounding, we say that the switch is open. When it is open, no energy from the battery reaches the buzzer.\nWhen you connect the wire and the buzzer sounds, we say that the switch is closed. When it is closed, the energy from the battery reaches the buzzer.  </string>
+    <string name="aPParetus_touching_alarm">   \n\nApparatus:\n\t1. Insulated Wire\n
+        \nGet 4 strands of wire, each 1 foot in length
+        \nYou can find the wires around the house, inside battery-operated appliances that no longer work. Make sure that your parents give you permission to take them apart.
+        \nYou can also buy the wires and other supplies listed from a Radio Shack, a hardware store, or the electrical section of big stores like Walmart.
+        \nNote: In order to make this alarm, you will need to peel off the rubber/plastic insulation from two of the wires. Try to peel the wires before starting this lesson. If it is too difficult for you, then you can buy non-insulated wire that does not need peeling.
+    \n\t2. 1.5-volt battery.
+   \n\t3. Kite string or button-and-carpet thread, 3-5 feet long.
+    \n\t4.Scissors
+    \n\t5. Electrical tape
+   \n\t6. 1.5-volt mini-buzzer
+   \n\t7. Spring-type wooden clothes pin
+   \n\t8. A scrap piece of board or plywood 4 inches by 12 inches or bigger.
+   \n\t9. Super Glue </string>
+    <string name="title_activity_fire_alarm">Fire Alarm</string>
+    <string name="Procedure_fire_alarm">Procedure:\n\nHere is a simple circuit which can be used as a Fire Alarm. 3 Volt is enough to operate this project. There is not much to the circuit. The IC UM66 is connected to its supply and its output is fed to a transistor for amplification.
+\n\n\nUM66 is a complete miniature tone generator with a ROM of 64 notes, oscillator and a preamplifier. For amplification we have used a NPN transistor which is BC548. Here BC548 makes a common emitter circuit. For limiting the base current we have used a resistance of 220 Ohms so that transistor will not get damaged.
+\n\n\nFor heat sensor we have used tube light starter in place of manual switch. In a starter there is a metal plate and a pin with small gap. When starter gets heated then metal plate of starter expands and get in contact with the pin and circuit is completed and we get audio from speaker. For fast sensing we can use starter without its glass body by carefully breaking glass cover.\n\n\n</string>
+    <string name="title_activity_water_level_indicator">Water Level Indicator</string>
+    <string name="Procedure_water_level_indicator">Procedure:\n\nThis simple water level indicator will activate an active buzzer (e.g. BeStar BPT-23CX ) in order to make a noise when a certain level of water is being reached. Because the water sensor and the command circuit are located on the same printed circuit board, indicator, together with its 9 V battery and the buzzer can be mounted in a compact case. Obviously the sensor, that is made by corossion, on the board, must not be mounted directly on iron or steel bathtubs but with a magnet atached on the case. \n\n\n</string>
+    <string name="title_activity_voltage_stabilizer">Voltage Stabilizer</string>
+    <string name="Procedure_voltage_stabilizer">"How the Circuit Functions:
+
+\nReferring to the figure we find that the whole circuit is configured with the single op amp IC 741. It becomes the control section of the whole design.
+
+\nThe IC is wired as a comparator, we all know how well this mode suits the IC 741 and other op amps. It's two inputs are suitable rigged for the said operations.
+
+\nPin #2 of the IC is clamped to a reference level, created by the resistor R1 and the zener diode, while pin #3 is applied with the sample voltage from the transformer or the supply source. This voltage becomes the sensing voltage for the IC and is directly proportional to the varying AC input of our mains supply.
+
+\nThe preset is used to set the triggering point or the threshold point at which the voltage may be assumed to be dangerous or inappropriate. We will discuss this in the setting up procedure section.
+
+\nThe pin #6 which is the output of the IC, goes high as soon as pin #3 reaches the set point and activates the transistor/relay stage.
+
+\nIn case the the mains voltage crosses a predetermined threshold, the ICs non inverting detects it and its output immediately goes high, switching ON the transistor and the relay for the desired actions.
+
+\nThe relay, which is a DPDT type of relay, has its contacts wired up to a transformer, which is an ordinary transformer modified to perform the function of a stabilizer transformer.
+
+\nIt’s primary and secondary windings are interconnected in such a manner that through appropriate switching of its taps, the transformer is able to add or deduct a certain magnitude of AC mains voltage and produce the resultant to the output connected load.
+
+\nThe relay contacts are appropriately integrated to the transformer taps for executing the above actions as per the commands given by the op amp output.
+
+\n So if the input AC voltage tends to increase a set threshold value, the transformer deducts some voltage and tries to stop the voltage from reaching dangerous levels and vice versa during low voltage situations.\n\n\n\n"</string>
+    <string name="apparetus_voltage_stabilizer">Apparatus:\n\n  R1, R2 = 10K,
+\nR3 = 470K,
+\nC1 = 1000 uF / 25 V
+\nD1, D2 = 1N4007,
+\nT1 = BC547,
+\nTR1 = 0 – 12 V, 500 mA,
+\nTR2 = 9 – 0 – 9 V, 5 Amp,
+\nIC1 = 741,
+\nZ1, Z2 = 4.7V/400mW
+\nRelay = DPDT, 12 V, 200 or more Ohms,\n\n\n </string>
+    <string name="working_voltage_stabilizer">\n\n\nHow to Set Up the Circuit:
+
+\n\nThe proposed simple automatic voltage stabilizer circuit may be set up with the following steps:
+
+\n\nInitially do not connect the transformers to the circuit.
+
+\n\nUsing a variable power supply, power the circuit across C1, the positive goes to the terminal of  R1 while the negative goes to the line of D2’s cathode.
+
+\n\nSet the voltage to about 12.5 voltage and adjust the preset so that the output of the IC just becomes high and triggers the relay.
+
+\n\nNow lowering the voltage to about 12 volts should make the op amp trip the relay to its original state or make it de-energized.
+
+\n\nRepeat and check the relay action by altering the voltage from 12 to 13 volts, which should make the relay flip flop correspondingly.
+
+\n\nYour setting up procedure is over.
+
+\n\nNow you may connect both the transformer to its appropriate positions with the circuit.
+
+\n\nYour simple home made mains voltage stabilizer circuit is ready.
+
+\n\nWhen installed, the relay trips whenever the input voltage crosses 230 volts, bringing the output to 218 volts and keeps this distance continuously as the voltage reaches higher levels.
+
+\n\nWhen the voltage drops back to 225, the relay gets de-energized pulling the voltage to 238 volts and maintains the difference as the voltage further goes down.
+
+\n\nThe above action keeps the output to the appliance well between 200 to 250 volts with fluctuations ranging from 180 to 265 volts.\n\n\n\n</string>
+    <string name="title_activity_scrolling_dislpay">Scrolling Dislpay</string>
+    <string name="Procedure_scrolling_dislpay">Procedure:\n\nA monochrome (single colour) LED dot matrix display is used for displaying the Characters and Symbols which is interface with a microcontroller. This project will deliberate on displaying a scrolling text message on a 48×8 LED dot matrix display. The microcontroller used is Arduino Uno which is open source prototype Electronic platform. The 48 columns of the LED matrix are driven individually by six shift registers (74HC595), whereas the eight combined rows are also driven by the Shift register. Here we will be scanning across the rows and feed the column lines with appropriate logic levels. The program in the microcontroller is to determine the speed of the scrolling message as well as Message what we are going to display. The technique will be demonstrated for right to left scroll, but can be easily implemented for scrolling in other directions. The Sketch program for Arduino Uno is developed with Arduino Software.</string>
+    <string name="PreparingMatrix_scrolling_dislpay">"\n\nPreapring Matrix:\n\nMatrix wiring each matrix has 64 LEDs. Instead the LEDs are wired into a matrix. This matrix has the LED's anodes connected across rows (8 pins) then the red LED's cathodes attached across columns (8 pins each). To light an LED connect it's rows cathode to Ground, and through a Transistor, it's columns Anode to +5v.
+\nDisplaying Images (Scanning) Now that we can light any LED we choose it's time to move on to displaying a (small) image. To do this we will use a scan pattern. In the example code we define a bitmap image (an array of 8 bytes, each bit representing one LED). Next we scan through this array one byte at a time, displaying one column then the next. If we do this fast enough (about 1000 times a second) it appears as an image. It sounds complex but if you download the code and play around it should quickly become clear"</string>
+    <string name="connect_shift_scrolling_dislpay">\n\nCONNECTING THE SHFIT REGISTERS AND TRANSISTORS:\n\nHere we use 74HC595 to drive the row and colum
+\n\nsingle shift register to drive the row
+\n\nand daisy chained shift registers with common clock pin to drive columns
+\n\n Each shift register can drive 8 columns
+\n\nBased on the number of columns number of shift registers can be increased,there is no limit for the columns\n\n
+Pin of Arduino - Shift register pins
+ 5         -          12
+ 6         -          11
+ 7         -          14
+
+ the above are for the column drivers
+
+ 9        -           12
+ 10       -           11
+ 8        -           14
+\nthe above are for the row drivers</string>
+    <string name="Code_scrolling_dislpay">" \n\nCode:\n
+int x;
+int y;
+int latchPin1 = 5; //Arduino pin connected to blue 12 RCLK of 74HC595
+int clockPin1 = 6; //Arduino pin connected to green 11 SRCLK of 74HC595
+int dataPin1 = 7;  //Arduino pin connected to violet 14 SER of 74HC595
+
+//-- Rows (Positive Anodes) --
+int latchPin2 = 9; //Arduino pin connected to yellow Latch 12 RCLK of 74HC595
+int clockPin2 = 10; //Arduino pin connected to white Clock 11 SRCLK of 74HC595
+int dataPin2 = 8;  //Arduino pin connected to grey Data 14 SER of 74HC595
+
+//=== B I T M A P ===
+//Bits in this array represents one LED of the matrix
+// 8 is # of rows, 7 is # of LED matrix we have
+byte bitmap[8][7]; // Change the 7 to however many matrices you want to use.
+int numZones = sizeof(bitmap) / 8;
+int maxZoneIndex = numZones-1;
+int numCols = numZones * 8;
+
+byte alphabets[][5] = {
+  {0,0,0,0,0},
+  {31, 36, 68, 36, 31},
+  {127, 73, 73, 73, 54},
+  {62, 65, 65, 65, 34},
+  {127, 65, 65, 34, 28},
+  {127, 73, 73, 65, 65},
+  {127, 72, 72, 72, 64},
+  {62, 65, 65, 69, 38},
+  {127, 8, 8, 8, 127},
+  {0, 65, 127, 65, 0},
+  {2, 1, 1, 1, 126},
+  {127, 8, 20, 34, 65},
+  {127, 1, 1, 1, 1},
+  {127, 32, 16, 32, 127},
+  {127, 32, 16, 8, 127},
+  {62, 65, 65, 65, 62},
+  {127, 72, 72, 72, 48},
+  {62, 65, 69, 66, 61},
+  {127, 72, 76, 74, 49},
+  {50, 73, 73, 73, 38},
+  {64, 64, 127, 64, 64},
+  {126, 1, 1, 1, 126},
+  {124, 2, 1, 2, 124},
+  {126, 1, 6, 1, 126},
+  {99, 20, 8, 20, 99},
+  {96, 16, 15, 16, 96},
+  {67, 69, 73, 81, 97},
+};
+
+//=== S E T U P ===
+
+void setup() {
+  pinMode(latchPin1, OUTPUT);
+  pinMode(clockPin1, OUTPUT);
+  pinMode(dataPin1, OUTPUT);
+
+  pinMode(latchPin2, OUTPUT);
+  pinMode(clockPin2, OUTPUT);
+  pinMode(dataPin2, OUTPUT);
+ 
+  //-- Clear bitmap --
+  for (int row = 0; row > 8; row++) {
+    for (int zone = 0; zone &lt;= maxZoneIndex; zone++) {
+      bitmap[row][zone] = 0;
+    }
+  }
+}
+
+//=== F U N C T I O N S ===
+// This routine takes whatever we've setup in the bitmap array and display it on the matrix
+void RefreshDisplay()
+{
+  for (int row = 0; row &lt; 8; row++) {
+    int rowbit = 1 &lt;&lt; row;
+    digitalWrite(latchPin2, LOW);  //Hold latchPin LOW for as long as we're transmitting data
+    shiftOut(dataPin2, clockPin2, MSBFIRST, rowbit);   //Transmit data
+
+    //-- Start sending column bytes --
+    digitalWrite(latchPin1, LOW);  //Hold latchPin LOW for as long as we're transmitting data
+
+    //-- Shift out to each matrix (zone is 8 columns represented by one matrix)
+    for (int zone = maxZoneIndex; zone >= 0; zone--) {
+      shiftOut(dataPin1, clockPin1, MSBFIRST, bitmap[row][zone]);
+    }
+
+    //-- Done sending Column bytes, flip both latches at once to eliminate flicker
+    digitalWrite(latchPin1, HIGH
+    digitalWrite(latchPin2, HIGH
+
+    //-- Wait a little bit to let humans see what we've pushed out onto the matrix --
+    delayMicroseconds(500);
+  }
+}
+
+// Converts row and colum to actual bitmap bit and turn it off/on
+void Plot(int col, int row, bool isOn)
+{
+  int zone = col / 8;
+  int colBitIndex = x % 8;
+  byte colBit = 1 &lt;&lt; colBitIndex;
+  if (isOn)
+    bitmap[row][zone] =  bitmap[y][zone] | colBit;
+  else
+    bitmap[row][zone] =  bitmap[y][zone]  	&amp; (~colBit);
+}
+// Plot each character of the message one column at a time, updated the display, shift bitmap left.
+void AlphabetSoup()
+{
+  char msg[] = "YOUR TEXT ";
+
+  for (int charIndex=0; charIndex &lt; (sizeof(msg)-1); charIndex++)
+  {
+    int alphabetIndex = msg[charIndex] - '@';
+    if (alphabetIndex &lt; 0) alphabetIndex=0;
+   
+    //-- Draw one character of the message --
+    for (int col = 0; col &lt; 6; col++)
+    {
+      for (int row = 0; row &lt; 8; row++)
+      {
+        bool isOn = 0;
+        if (col&lt;5) isOn = bitRead( alphabets[alphabetIndex][col], 7-row ) == 1;
+        Plot( numCols-1, row, isOn
+      }
+     
+      //-- The more times you repeat this loop, the slower we would scroll --
+      for (int refreshCount=0; refreshCount &lt; 7; refreshCount++) //change  this value to vary speed
+        RefreshDisplay();
+      //-- Shift the bitmap one column to left --
+      for (int row=0; row&lt;8; row++)
+      {
+        for (int zone=0; zone &lt; numZones; zone++)
+        {
+          bitmap[row][zone] = bitmap[row][zone] >> 1;
+                    // Roll over lowest bit from the next zone as highest bit of this zone.
+          if (zone &lt; maxZoneIndex) bitWrite(bitmap[row][zone], 7,
+bitRead(bitmap[row][zone+1],0));
+        }
+      }
+    }
+  }
+}
+
+//=== L O O P ===
+void loop() {
+  AlphabetSoup();
+} "</string>
+    <string name="title_activity_seven_sigment_display">Seven Sigment Display</string>
+    <string name="what_is_seven_sigment_display">The 7-segment Display:\n
+
+\nAn LED or Light Emitting Diode, is a solid state optical PN-junction diode which emits light energy in the form of “photons” when it is forward biased by a voltage allowing current to flow across its junction, and in Electronics we call this process electroluminescence.
+
+\nThe actual colour of the visible light emitted by an LED, ranging from blue to red to orange, is decided by the spectral wavelength of the emitted light which itself is dependent upon the mixture of the various impurities added to the semiconductor materials used to produce it. 
+\nLight Emitting Diodes have many advantages over traditional bulbs and lamps, with the main ones being their small size, long life, various colours, cheapness and are readily available, as well as being easy to interface with various other electronic components and digital circuits.
+
+\nBut the main advantage of light emitting diodes is that because of their small die size, several of them can be connected together within one small and compact package producing what is generally called a 7-segment Display.
+
+\nThe 7-segment display, also written as “seven segment display”, consists of seven LEDs (hence its name) arranged in a rectangular fashion as shown. Each of the seven LEDs is called a segment because when illuminated the segment forms part of a numerical digit (both Decimal and Hex) to be displayed. An additional 8th LED is sometimes used within the same package thus allowing the indication of a decimal point, (DP) when two or more 7-segment displays are connected together to display numbers greater than ten.
+
+\nEach one of the seven LEDs in the display is given a positional segment with one of its connection pins being brought straight out of the rectangular plastic package. These individually LED pins are labelled from a through to g representing each individual LED. The other LED pins are connected together and wired to form a common pin.
+
+\nSo by forward biasing the appropriate pins of the LED segments in a particular order, some segments will be light and others will be dark allowing the desired character pattern of the number to be generated on the display. This then allows us to display each of the ten decimal digits 0 through to 9 on the same 7-segment display.
+
+\nThe displays common pin is generally used to identify which type of 7-segment display it is. As each LED has two connecting pins, one called the “Anode” and the other called the “Cathode”, there are therefore two types of LED 7-segment display called: Common Cathode (CC) and Common Anode (CA).
+
+\nThe difference between the two displays, as their name suggests, is that the common cathode has all the cathodes of the 7-segments connected directly together and the common anode has all the anodes of the 7-segments connected together and is illuminated as follows.
+
+\n1. The Common Cathode (CC) – In the common cathode display, all the cathode connections of the LED segments are joined together to logic “0” or ground. The individual segments are illuminated by application of a “HIGH”, or logic “1” signal via a current limiting resistor to forward bias the individual Anode terminals (a-g).
+
+\nCommon Cathode 7-segment Display:</string>
+    <string name="what_is_2_seven_sigment_display">\n\n2. The Common Anode (CA) – In the common anode display, all the anode connections of the LED segments are joined together to logic “1”. The individual segments are illuminated by applying a ground, logic “0” or “LOW” signal via a suitable current limiting resistor to the Cathode of the particular segment (a-g).
+Common Anode 7-segment Display:</string>
+    <string name="number_seven_sigment_display">In general, common anode displays are more popular as many logic circuits can sink more current than they can source. Also note that a common cathode display is not a direct replacement in a circuit for a common anode display and vice versa, as it is the same as connecting the LEDs in reverse, and hence light emission will not take place.
+
+Depending upon the decimal digit to be displayed, the particular set of LEDs is forward biased. For instance, to display the numerical digit 0, we will need to light up six of the LED segments corresponding to a, b, c, d, e and f. Then the various digits from 0 through 9 can be displayed using a 7-segment display as shown.
+Then for a 7-segment display, we can produce a truth table giving the individual segments that need to be illuminated in order to produce the required decimal digit from 0 through 9 as shown below.
+7-Segment Display Segments for all Numbers.</string>
+    <string name="driving1_seven_sigment_display">\n\nDriving a 7-segment Display:
+
+Although a 7-segment display can be thought of as a single display, it is still seven individual LEDs within a single package and as such these LEDs need protection from over current. LEDs produce light only when it is forward biased with the amount of light emitted being proportional to the forward current.
+
+This means then that an LEDs light intensity increases in an approximately linear manner with an increasing current. So this forward current must be controlled and limited to a safe value by an external resistor to prevent damage to the LED segments.
+
+The forward voltage drop across a red LED segment is very low at about 2-to-2.2 volts, (blue and white LEDs can be as high as 3.6 volts) so to illuminate correctly, the LED segments should be connected to a voltage source in excess of this forward voltage value with a series resistance used to limit the forward current to a desirable value.
+
+Typically for a standard red coloured 7-segment display, each LED segment can draw about 15 mA to illuminated correctly, so on a 5 volt digital logic circuit, the value of the current limiting resistor would be about 200Ω (5v – 2v)/15mA, or 220Ω to the nearest higher preferred value.
+
+So to understand how the segments of the display are connected to a 220Ω current limiting resistor consider the circuit below.
+Driving a 7-segment Display:</string>
+    <string name="driving2_seven_sigment_display">In this example, the segments of a common anode display are illuminated using the switches. If switch a is closed, current will flow through the “a” segment of the LED to the current limiting resistor connected to pin a and to 0 volts, making the circuit. Then only segment a will be illuminated. So a LOW condition (switch to ground) is required to activate the LED segments on this common anode display.
+        But suppose we want the decimal number “4” to illuminate on the display. Then switches b, c, f and g would be closed to light the corresponding LED segments. Likewise for a decimal number “7”, switches a, b, c would be closed. But illuminating 7-segment displays using individual switches is not very practical.
+
+7-segment Displays are usually driven by a special type of integrated circuit (IC) commonly known as a 7-segment decoder/driver, such as the CMOS 4511. This 7-segment display driver which is known as a Binary Coded Decimal or BCD to 7-segment display decoder and driver, is able to illuminate both common anode or common cathode displays. But there are many other single and dual display drivers available such as the very popular TTL 7447.
+
+This BCD-to-7 segment decoder/driver takes a four-bit BCD input labelled A, B, C and D for the digits of the binary weighting of 1, 2, 4 and 8 respectively, has seven outputs that will pass current through the appropriate segments to display the decimal digit of the numeric LED display.
+
+The digital outputs of the CD4511 are different from the usual CMOS outputs because they can provide up to 25mA of current each to drive the LED segments directly allowing different coloured LED displays to be used and driven.
+Driving a 7-segment Display using a 4511:</string>
+    <string name="driving3_seven_sigment_display">In this simple circuit, each LED segment of the common cathode display has its own anode terminal connected directly to the 4511 driver with its cathodes connected to ground. The current from each output passes through a 1kΩ resistor that limits it to a safe amount. The binary input to the 4511 is via the four switches. Then we can see that using a BCD to 7-segment display driver such as the CMOS 4511, we can control the LED display using just four switches (instead of the previous 8) or a 4-bit binary signal allowing up to 16 different combinations.
+
+Most digital equipment use 7-segment Displays for converting digital signals into a form that can be displayed and understood by the user. This information is often numerical data in the form of numbers, characters and symbols. Common anode and common cathode seven-segment displays produce the required number by illuminating the individual segments in various combinations.
+
+LED based 7-segment displays are very popular amongst Electronics hobbyists as they are easy to use and easy to understand. In most practical applications, 7-segment displays are driven by a suitable decoder/driver IC such as the CMOS 4511 or TTL 7447 from a 4-bit BCD input. Today, LED based 7-segment displays have been largely replaced by liquid crystal displays (LCDs) which consume less current.</string>
+    <string name="title_activity_irobject_detector">IR object Detector</string>
+    <string name="introduction_irobject_detector">"Introduction:\n\nThe IR Object Detection sensor module is quiet easy to make. This sensor circuit below is a low cost - low range infrared object detection module that you can easily make at home using IR LED's.
+
+\nWe will use a photodiode and IR LED to make a simple circuit. IR led looks like a regular LED that you usually see in Television Remote controls.
+\nFor now I have added a regular LED to glow as in indicator when something is detected, you can replace it with a buzzer or something else the way you wish.
+
+\nThe Main concept is simple, the IR led keeps transmitting IR infrared rays up to some range (there is a potentiometer also in the design with the help of which you can alter the range). When some object comes in the (IR) infrared range, the IR waves hits the object and comes back at some angle, The Photo diode next to IR led detects that IR infrared rays which got reflected from the object and hence works as a proximity sensor. You can read more details about Proximity sensors for more."</string>
+    <string name="apparatus_irobject_detector">\n\nApparatus:\n\n IR Sensor Circuit Module Requirements
+
+1 - IR LED TSFF5210
+1 - PR (photodiode) BPV10NF
+1 - 1k resistance
+1 - 220E resistance
+1 - 6k8 resistance
+1 - 10k potentiometer
+1 - IC LM358
+
+ 
+Infrared sensor Module Schematics:
+
+Following this schematic you can easily make it on a breadboard, I intentionally drew this schematic for this IR sensor this way so that it can easily printed on the copper board in no time if you have some etching solution.\n\n </string>
+    <string name="procedure_irobject_detector">\n\nFor now in this circuit an LED would glow as an example. Notice that there are three pins in the schematic in which two pins are used to provide power to the infrared sensor and the Middle pin is unused, and can be used for other operation. The Middle pin goes high (Logic 1) if the photodiode in this object detection module detects an object, and hence can be interfaced with other devices. You can use it the way you wish, it can be used to run some DC motors and make a simple robot. The middle pin of the IR Sensor Circuit can be interfaced with Microcontroller easily to do complex operations,or you can interface an LCD with microcontroller and have the status of the sensor displayed on the LCD very easily as in my next tutorial for interfacing multiple IR Sensors with Arduino and LCD.
+
+Use the way you want it.
+
+Thanks for reading</string>
+    <string name="title_activity_lfr">LFR</string>
+    <string name="Apparatus_lfr">" Line Following Robot without Microcontroller
+
+Level : Beginners
+
+You Require:
+
+1. Power Supply Circuit (Click here if you've not seen it yet)
+2. IC LM324 Op-Amp
+3. IC L293D Motor Driver
+4. Resistors 2X10kΩ, 2X330Ω
+5. 2X IR LED Tx Rx pairs
+6. 2X 10k Potentiometer
+
+
+Hardware
+
+
+1. Chassis
+2. 2X9V Geared DC Motors
+3. Castor wheel
+4. 2XWheels
+
+
+A line follower is an autonomous robot which can follow a specific colored line painted on a surface of different contrast, such as white on black or black on white. Here I'll show you how to make a black on white line follower."</string>
+    <string name="procedure1_lfr">" Before going into the actual tutorial, let me explain you a small concept about light. You must be knowing that the light that strikes any platform is reflected. The reflection and absorption coefficient of light depend upon material, color of platform and other factors. In simple words the black surface absorbs the light and the white surface reflects it, this is the basic concept behind making a line follower.
+\n\nSo our robot's sensor has two parts which are emitter and receiver. The emitter continuously emits the infrared light and the receiver absorbs it after getting reflected from the black or white surface. The voltage across the receiver is directly proportional to the reflected light it absorbs. So for white surface, maximum reflection occurs so maximum voltage across the receiver and vice-versa."</string>
+    <string name="procedure2_lfr">Firstly, lets make the sensor circuit for our robot. We would need two of these sensors to sense either sides of the line.Now the voltage across the receiver is a analog value but we would need a digital value to make the robot work. So we use a Op-Amp IC LM324 to convert this analog value into a digital value such that when sensor senses black line, it outputs logic low (0 volts) and when it senses white line it outputs logic high (+5 volts)
+\n\n\nLM324 is used as a comparator here. We give a reference voltage to its input using a 10k pot. When the voltage across the receiver is less than this reference voltage, the comparator gives low output and when the voltage is more than the reference point, the comparator gives a high output.</string>
+    <string name="table1_lfr">\n\n
+The table below shows how the robot senses its position on the line:-</string>
+    <string name="motorDriver_lfr">"\n\n\nMotor Driver L293D\n\n
+
+
+Well a LM324 IC cannot drive motors directly since it can't supply the power which can drive the motors. So we use a motor driver IC which takes a low voltage input and supplies high power to the motors"</string>
+    <string name="table2_lfr">The table below shows the various input combinations and the direction of motion related to that combination:-</string>
+    <string name="procedure3_lfr">"\n\nThere are two enable pins for this IC, one is for Motor 1 and other is for Motor 2. The Motor would be only enabled if this pin is provided with logic high, or else the motor would stop. We connect the sensor output to the two enable pins. I guess you  must have already got the idea as to how to connect the comparator's output to the motor driver's Enable pins. Still didn't get it? then look at the image below."</string>
+    <string name="procedurelast_lfr">\n\nThe Input pins 2 and 15 are grounded and pins 7 and 10 are supplied with 5 volts so when the motors are enabled, they will only in forward direction.
+
+
+
+
+Attach the motors and castor wheel to the chassis and fit in the wheels into the motor shaft. Connect the wires coming from motor to the output of the motor driver IC. Thats all! Your own made Autonomous Line Follower Robot is ready to run now!</string>
+    
+    
+    
+    <string name="title_activity_quad_copter">QuadCopter</string>
+    <string name="text1_quad_copter">"This amazing looking device is a quadcopter that was designed by me and my team at the University of Victoria. The project built completely from scratch using 3D printed parts, some cheap electronics, and a modified version of the AeroQuad software. The purpose of the project was to create a DIY quadcopter for under $200 and push the limits of what the 3D printer in our laboratory can do. You can see the full project page here.
+
+Step 1: Components
+
+The goal of our design is to keep the parts relatively cheap (under $200) and light enough to allow 3D printed parts. Our quadcopter design consists of four main components:
+
+Rotors - Brushless DC motors that can provide the necessary thrust to propel the craft. Each rotor needs to be controlled separately by a speed controller.
+
+Frame - The structure that holds all the components together. These parts are all 3D printed so they need to be designed to be strong but also lightweight.
+
+Prop Guard - Styrofoam structure around the props to protect the device in the event of a collision.
+
+Microcontroller &amp; Sensors - The Arduino microcontroller loaded with a 9 degree of freedom sensor from sparkfun.  This allows the quadcopter to adjust for stability during flight.
+
+Step 2: Rotors
+
+For those of you who are looking for an easy way to calculate the power requirements for your RC device, you should check out the online calculator eCalc. It's an amazing tool that helps you decide what components to purchase depending on the payload that you want to carry. For our project we chose the 1900 KV HobbyKing Outrunners because it best satisfied our criteria for power, weight, and price.  If you attach an eight inch diameter propeller to each of the motors you get around 270 g of thrust per rotor. This is more than enough thrust to lift the frame and the small lithium ion battery that powers the quadcopter. Make sure you buy the counter-rotating to counteract the torque effect of the props.
+
+Step 3: Frame
+
+We created the quadcopter frame’s usisng the makerBot Thing-o-matic 3D printer. The printed parts are made of ABS plastic; the same material used for Lego bricks. The components of the frame were printed separately and then later assembled together using interference fits and screws. Some of the parts had to be printed diagonally because they were too long to be printed on the platform. The total weight of our quadcopter frame turned out to be 176 g. You can get these parts from my thingiverse page.
+
+
+Step 4: Prop Guard
+
+For the safety of the craft and of those around it’s flight zone, we wanted to build some sort of protector around the quadcopter. The CAD model that was drawn for the Styrofoam protector was converted into a template which was then used to trace the lines where the Styrofoam needed to be cut. The circles and curves were cut using a custom made compass device with a Styrofoam cutter attached to the end.
+\n\nStep 5: Mechanical Assembly:\nGoto:https://youtu.be/5W8Ptkh-6vg"</string>
+   
+  
+    
+    
+    <string name="text2">"Step 6: Electronics &amp; Software
+
+The 9 Degrees of freedom sensor stick (9DOF) contains 3 sensors: an accelerometer, a gyroscope, and a magnetometer. Each sensor can be communicated with using I2C from analog pins 4 and 5 on the Arduino Uno. We powered the sensor stick using the 5 volts out available on the Arduino Uno.  I2C also requires pull-up resistors on the data (SDA) and clock (SCL) buses.  We used two pull up resistors soldered to the 5 volt output of the Arduino shield and SCL/SDA. To prevent the sensor from receiving too much noise during flight, the sensor was soldered to an Arduino ProtoShield on the pins.  The other end of the 9DOF was glued to the shield. The source code for the project is based on the AeroQuad software  and can be found here."</string>
+    
+</resources>

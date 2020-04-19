@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IRobjectDetector" >
+
+    
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/introduction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/introduction_irobject_detector" />
+ 
+            
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ir1" />
+            
+             <TextView
+                android:id="@+id/apparetus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/apparatus_irobject_detector" />
+            
+ 
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ir2" />
+            
+               <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ir3" />
+               <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ir4" />
+               
+            
+            
+              <TextView
+                android:id="@+id/procidure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/procedure_irobject_detector" />
+            
+                   
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.57"
+                android:orientation="horizontal" >
+                      <Button
+                android:id="@+id/BtnBack"
+                android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               
+                android:background="#002761"
+                 android:text="Back" />
+         <Button
+                android:id="@+id/ExitBtn"
+                android:layout_width="wrap_content"
+                 android:layout_height="wrap_content" 
+                 android:layout_weight="1"
+                android:background="#002761"
+                  android:text="Exit" />
+            </LinearLayout>
+            
+        </LinearLayout>
+
+    </ScrollView>
+    
+    
+</RelativeLayout>
